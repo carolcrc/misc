@@ -1,3 +1,5 @@
+# Este código é um exemplo e não foi testado. Testem antes de usar.
+
 ```js
 // ATENÇÃO: Configure estas colunas antes de usar!
 const COLUNA_CPF = 2;      // Mude para o número da coluna onde o CPF aparece (A=1, B=2, C=3, etc.)
