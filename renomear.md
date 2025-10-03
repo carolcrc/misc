@@ -1,8 +1,8 @@
-# ATENÇÃO: Configure estas colunas antes de usar!
-## const COLUNA_CPF = 2;      // Mude para o número da coluna onde o CPF aparece (A=1, B=2, C=3, etc.)
-## const COLUNA_FOTO = 3;     // Mude para o número da coluna onde o link da foto aparece
+```js
+// ATENÇÃO: Configure estas colunas antes de usar!
+const COLUNA_CPF = 2;      // Mude para o número da coluna onde o CPF aparece (A=1, B=2, C=3, etc.)
+const COLUNA_FOTO = 3;     // Mude para o número da coluna onde o link da foto aparece
 
-```
 function renomearFotoPeloCPF(e) {
   // Pega os dados da linha que acabou de ser adicionada pela resposta do formulário
   const valores = e.range.getValues()[0];
